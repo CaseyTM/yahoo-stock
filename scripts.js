@@ -26,7 +26,7 @@ $(document).ready(function(){
 		},100);
 		});
 	$('#save').click(function(){
-		localStorage.setItem("savedStocks", symbol);
+		localStorage.setItem("savedStocks", $('#symbol').val());
 	});
 	
 
